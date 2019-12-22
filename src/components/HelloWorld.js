@@ -6,7 +6,7 @@ class HelloWorld extends Component {
   render() {
     return (
       <div id="canvas">
-        <div id="mobileNav" class="mobileNavBar">
+        <div id="mobileNav" className="mobileNavBar">
           <div className="navWrapper">
             <nav className="main-nav mobileNav">
               <ul>
@@ -32,10 +32,10 @@ class HelloWorld extends Component {
             </nav>
           </div>
         </div>
-        <div id="mobileNavButton">
+        <div className="mobileNavButton">
           <button>Menu</button>
         </div>
-        <header id="header" class="clear">
+        <header className="header">
           <div id="upper-logo">
             <h1 className="header-text">
               <a href="#">Erin &amp; Jesse</a>

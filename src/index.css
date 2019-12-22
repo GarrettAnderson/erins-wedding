@@ -1,3 +1,11 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  border-top: 2px solid #eee;
+}
+
 img {
   width: 100%;
 }
@@ -8,6 +16,34 @@ img {
 
 #topNav {
   display: none;
+}
+
+.header-text {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+
+.header-text a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-content > div{
+padding: 1rem;
+text-align: center;
+}
+
+.main-content > h2 {
+font-family: 'EB Garamond', serif !important;
+font-style: italic;
+}
+
+.mobileNavBar {
+border-bottom: 2px solid #eee;
+}
+
+.mobileNavButton {
+border-bottom: 2px solid #eee;
 }
 
 .image-container {
