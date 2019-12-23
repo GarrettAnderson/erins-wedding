@@ -38,6 +38,7 @@ img {
 .header-text {
   font-family: 'EB Garamond', serif;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .header-text a {
@@ -48,6 +49,10 @@ img {
 .main-content > section{
 padding: 1rem;
 text-align: center;
+}
+
+.tag-line {
+  padding-bottom: 0;
 }
 
 .tag-line > h3 {

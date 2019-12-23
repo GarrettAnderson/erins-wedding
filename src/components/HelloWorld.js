@@ -13,10 +13,10 @@ class HelloWorld extends Component {
             <nav className="main-nav mobileNav">
               <ul>
                 <li className="page-collection">
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Wedding</a>
+                  <a href="/">Wedding</a>
                 </li>
                 <li className="page-collection">
                   <a href="#">Travel</a>
