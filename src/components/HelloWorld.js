@@ -73,23 +73,23 @@ class HelloWorld extends Component {
         </header>
         <div className="page-divider top-divider"></div>
         <section className="main-content">
-          <div className="image-container">
+          <section className="image-container">
             <img src={saveTheDateImg}></img>
-            </div>
-            <div><h3>Come Celebrate Our Wedding</h3></div>
-            <div><hr></hr></div>
-            <div>
+            </section>
+            <section className="tag-line"><h3>Come Celebrate Our Wedding</h3></section>
+            <section><hr></hr></section>
+            <section className="wedding-couple">
               <h1>Jesse Berhardt</h1>
               <h2>-&nbsp;<em>and</em>&nbsp;-</h2>
               <h1>Erin Anderson</h1>
-            </div>
-            <div><hr></hr></div>
-            <div>
+            </section>
+            <section><hr></hr></section>
+            <section className="wedding-date">
               <h3>Saturday, May 20, 2020</h3>
-            </div>
-            <div>
+            </section>
+            <section className="wedding-invitation">
               <h2>Erin and Jesse joyfully request the pleasure of your company as we speak our vows and join in marriage in the presence of family and friends. Photography by Emily Karcher Photography, LLC.</h2>
-            </div>
+            </section>
         </section>
         <footer><p>Built by Garrett L.G. Anderson</p></footer>
       </div>
