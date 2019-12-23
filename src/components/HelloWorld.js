@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import saveTheDateImg from '../images/foto-pettine-IfjHaIoAoqE-unsplash.jpg'
 class HelloWorld extends Component {
-
+  state = {
+    navShown: true
+  }
 
   render() {
     return (
@@ -32,7 +34,7 @@ class HelloWorld extends Component {
             </nav>
           </div>
         </div>
-        <div className="mobileNavButton">
+        <div className="mobileNavButton" onClick={() => this.setState({ navShown: !this.state.navShown })}>
           <button>Menu</button>
         </div>
         <header className="header">

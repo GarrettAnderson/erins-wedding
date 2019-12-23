@@ -10,6 +10,19 @@ img {
   width: 100%;
 }
 
+.main-nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.main-nav ul a {
+  color: rgba(28,28,28,.39999999999999997);
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
 #lower-logo {
   display: none;
 }
@@ -66,10 +79,22 @@ font-weight: 300;
 
 .mobileNavBar {
 border-bottom: 2px solid #eee;
+padding: 1rem;
+margin: 0rem 1rem;
 }
 
 .mobileNavButton {
 border-bottom: 2px solid #eee;
+margin: 0rem 1rem;
+text-align: center;
+font-size: 16px;
+color: rgba(28,28,28,.7)
+}
+
+.mobileNavButton button {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 20px;
 }
 
 .image-container {
