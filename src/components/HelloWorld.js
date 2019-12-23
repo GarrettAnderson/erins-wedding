@@ -90,7 +90,7 @@ class HelloWorld extends Component {
             </section>
             <section><hr></hr></section>
             <section className="wedding-date">
-              <h3>Saturday, May 20, 2020</h3>
+              <h3>Saturday, May 30, 2020</h3>
             </section>
             <section className="wedding-invitation">
               <h2>Erin and Jesse joyfully request the pleasure of your company as we speak our vows and join in marriage in the presence of family and friends. Photography by Emily Karcher Photography, LLC.</h2>

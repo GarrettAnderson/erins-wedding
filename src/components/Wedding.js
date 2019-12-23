@@ -79,10 +79,21 @@ export class Wedding extends Component {
         <img src={saveTheDateImg2}></img>
       </section>
       <section className="tag-line">
-          <h3>The wedding will be held on Saturday, May 20, 2020.</h3>
+          <h3>The wedding will be held on Saturday, May 30, 2020.</h3>
       </section>
       <section className="wedding-details">
         <h1>Ceremony</h1>
+        <h3>1:00pm - 2:00pm</h3>
+        <p>
+          New Faith Church
+          <br />
+          123 Some Street
+          <br />
+          Annapolis, MD
+        </p>
+      </section>
+      <section className="reception-details">
+        <h1>Reception</h1>
         <h3>1:00pm - 2:00pm</h3>
         <p>
           New Faith Church
