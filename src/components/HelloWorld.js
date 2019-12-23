@@ -8,9 +8,9 @@ class HelloWorld extends Component {
   render() {
     return (
       <div id="canvas">
-        <div id="mobileNav" className="mobileNavBar">
+        <div id="mobileNav" className={`mobileNavBar ${this.state.navShown ? 'is-shown' : ''}`}>
           <div className="navWrapper">
-            <nav className={`main-nav mobileNav ${this.state.navShown ? 'is-shown' : ''}`}>
+            <nav className="main-nav mobileNav">
               <ul>
                 <li className="page-collection">
                   <a href="#">Home</a>
