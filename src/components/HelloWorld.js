@@ -10,7 +10,7 @@ class HelloWorld extends Component {
       <div id="canvas">
         <div id="mobileNav" className="mobileNavBar">
           <div className="navWrapper">
-            <nav className="main-nav mobileNav">
+            <nav className={`main-nav mobileNav ${this.state.navShown ? 'is-shown' : ''}`}>
               <ul>
                 <li className="page-collection">
                   <a href="#">Home</a>
