@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import saveTheDateImg from '../images/foto-pettine-IfjHaIoAoqE-unsplash.jpg'
+
+
 class HelloWorld extends Component {
   state = {
     navShown: true
@@ -13,10 +16,10 @@ class HelloWorld extends Component {
             <nav className="main-nav mobileNav">
               <ul>
                 <li className="page-collection">
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="page-collection">
-                  <a href="/">Wedding</a>
+                  <Link to="/wedding">Wedding</Link>
                 </li>
                 <li className="page-collection">
                   <a href="#">Travel</a>
