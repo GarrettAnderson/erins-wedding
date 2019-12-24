@@ -101,10 +101,11 @@ font-size: 16px;
 color: rgba(28,28,28,.7)
 }
 
-.mobileNavButton button {
+.mobileNavButton p {
   width: 100%;
   padding: 0.5rem;
   font-size: 20px;
+  margin: 0;
 }
 
 .image-container {

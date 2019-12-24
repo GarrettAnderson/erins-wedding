@@ -38,7 +38,7 @@ class HelloWorld extends Component {
           </div>
         </div>
         <div className="mobileNavButton" onClick={() => this.setState({ navShown: !this.state.navShown })}>
-          <button>Menu</button>
+          <p>Menu</p>
         </div>
         <header className="header">
           <div id="upper-logo">
