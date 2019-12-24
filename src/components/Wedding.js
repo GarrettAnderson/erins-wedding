@@ -103,6 +103,7 @@ export class Wedding extends Component {
           Annapolis, MD
         </p>
       </section>
+      <footer><p>Built by Garrett L.G. Anderson</p></footer>
       </div>
     );
   }

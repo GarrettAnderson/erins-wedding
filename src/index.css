@@ -89,7 +89,7 @@ font-weight: 300;
 
 .mobileNavBar {
 border-bottom: 2px solid #eee;
-padding: 1rem;
+padding: 1rem 1rem 0rem;
 margin: 0rem 1rem;
 }
 
@@ -117,9 +117,17 @@ color: rgba(28,28,28,.7)
   padding: 1rem;
 }
 
+.wedding-details h1, h3, p {
+  font-weight: 300;
+}
+
 .reception-details {
   text-align: center;
-  padding: 1rem;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+.reception-details h1, h3, p {
+  font-weight: 300;
 }
 
 footer {
