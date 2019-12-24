@@ -130,6 +130,18 @@ color: rgba(28,28,28,.7)
   font-weight: 300;
 }
 
+.photo-gallery ol {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo-gallery li {
+  width: 90%;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
 footer {
   border-top: 2px solid #eee;
   padding: 1rem;

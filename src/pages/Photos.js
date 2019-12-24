@@ -118,6 +118,7 @@ export class Photos extends Component {
           }
         </ol>
       </section>
+      <footer><p>Built by Garrett L.G. Anderson</p></footer>
     </div>
     );
   }
