@@ -16,19 +16,19 @@ class HelloWorld extends Component {
             <nav className="main-nav mobileNav">
               <ul>
                 <li className="page-collection">
-                  <Link to="/">Home</Link>
+                  <Link to="/">HOME</Link>
                 </li>
                 <li className="page-collection">
-                  <Link to="/wedding">Wedding</Link>
+                  <Link to="/wedding">WEDDING</Link>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Travel</a>
+                  <a href="#">TRAVEL</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Photos</a>
+                  <a href="#">PHOTOS</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Registry</a>
+                  <a href="#">REGISTRY</a>
                 </li>
                 <li className="page-collection">
                   <a href="#">RSVP</a>
@@ -38,7 +38,7 @@ class HelloWorld extends Component {
           </div>
         </div>
         <div className="mobileNavButton" onClick={() => this.setState({ navShown: !this.state.navShown })}>
-          <p>Menu</p>
+          <p>MENU</p>
         </div>
         <header className="header">
           <div id="upper-logo">
@@ -55,19 +55,19 @@ class HelloWorld extends Component {
             <nav className="main-nav">
               <ul>
                 <li className="page-collection">
-                  <a href="#">Home</a>
+                  <a href="#">HOME</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Wedding</a>
+                  <a href="#">WEDDING</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Travel</a>
+                  <a href="#">TRAVEL</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Photos</a>
+                  <a href="#">PHOTOS</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">Registry</a>
+                  <a href="#">REGISTRY</a>
                 </li>
                 <li className="page-collection">
                   <a href="#">RSVP</a>
