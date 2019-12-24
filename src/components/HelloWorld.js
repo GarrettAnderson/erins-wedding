@@ -25,7 +25,7 @@ class HelloWorld extends Component {
                   <a href="#">TRAVEL</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">PHOTOS</a>
+                  <Link to="/photos">PHOTOS</Link>
                 </li>
                 <li className="page-collection">
                   <a href="#">REGISTRY</a>
