@@ -140,6 +140,7 @@ color: rgba(28,28,28,.7)
 .photo-gallery li {
   width: 90%;
   padding: 0rem 0rem 1rem 0rem;
+  list-style: none;
 }
 
 footer {
