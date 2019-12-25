@@ -54,22 +54,22 @@ export class Wedding extends Component {
           <nav className="main-nav">
             <ul>
               <li className="page-collection">
-                <a href="#">HOME</a>
+                <Link to="/">HOME</Link>
               </li>
               <li className="page-collection">
-                <a href="#">WEDDING</a>
+                <Link to="/wedding">WEDDING</Link>
               </li>
               <li className="page-collection">
                 <a href="#">TRAVEL</a>
               </li>
               <li className="page-collection">
-                <a href="#">PHOTOS</a>
+                <Link to="/photos">PHOTOS</Link>
               </li>
               <li className="page-collection">
                 <a href="#">REGISTRY</a>
               </li>
               <li className="page-collection">
-                <a href="#">RSVP</a>
+              <Link to="rsvp">RSVP</Link>
               </li>
             </ul>
           </nav>

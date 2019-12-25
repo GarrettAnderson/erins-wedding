@@ -31,7 +31,7 @@ class HelloWorld extends Component {
                   <a href="#">REGISTRY</a>
                 </li>
                 <li className="page-collection">
-                  <a href="#">RSVP</a>
+                  <Link to="rsvp">RSVP</Link>
                 </li>
               </ul>
             </nav>
