@@ -107,9 +107,17 @@ export class Rsvp extends Component {
         <label>Email Address:</label>
         <br />
         <input type="email" name="email" />
+        <br />
+        <label>Name:</label>
+        <br />
+        <input type="first-name" name="first-name" placeholder="First Name"/>
+        <input type="last-name" name="last-name" placeholder="Last Name"/>
+        <br />
         <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        <br />
+        <textarea type="text" name="message" rows="5" cols="3"/>
+        <br />
+        {status === "SUCCESS" ? <p>Thanks!</p> : <button>RSVP</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
     </div>

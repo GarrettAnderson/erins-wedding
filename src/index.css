@@ -143,9 +143,14 @@ color: rgba(28,28,28,.7)
   list-style: none;
 }
 
-.rsvp-form input {
+.rsvp-form {
+  padding: 1rem;
+}
+
+.rsvp-form input, textarea {
   border: 1px solid #ccc;
   background: #fafafa;
+  width: 100%;
 }
 
 footer {
