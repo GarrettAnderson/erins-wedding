@@ -102,8 +102,10 @@ export class Rsvp extends Component {
         onSubmit={this.submitForm}
         action="https://formspree.io/mzbdvdno"
         method="POST"
+        className="rsvp-form"
       >
-        <label>Email:</label>
+        <label>Email Address:</label>
+        <br />
         <input type="email" name="email" />
         <label>Message:</label>
         <input type="text" name="message" />
