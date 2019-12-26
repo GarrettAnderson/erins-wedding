@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import saveTheDateImg2 from '../images/120A9815.jpg'
+import saveTheDateImg from '../images/120A9694.jpg'
 
 export class Rsvp extends Component {
   constructor(props) {
@@ -100,7 +100,7 @@ export class Rsvp extends Component {
         </div>
       </header>
       <section className="image-container">
-        <img src={saveTheDateImg2}></img>
+        <img src={saveTheDateImg}></img>
       </section>
       <form
         onSubmit={this.submitForm}
@@ -132,6 +132,7 @@ export class Rsvp extends Component {
         {status === "SUCCESS" ? <p>Thanks!</p> : <div className="rsvp-button"><button>RSVP</button></div>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
+      <footer><p>Built by Garrett L.G. Anderson</p></footer>
     </div>
     );
   }
