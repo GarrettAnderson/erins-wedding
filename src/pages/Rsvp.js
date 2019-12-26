@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import saveTheDateImg2 from '../images/120A9815.jpg'
 
 export class Rsvp extends Component {
   constructor(props) {
@@ -98,26 +99,37 @@ export class Rsvp extends Component {
           </nav>
         </div>
       </header>
+      <section className="image-container">
+        <img src={saveTheDateImg2}></img>
+      </section>
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/mzbdvdno"
         method="POST"
         className="rsvp-form"
       >
-        <label>Email Address:</label>
+        <label>Email Address</label>
         <br />
         <input type="email" name="email" />
         <br />
-        <label>Name:</label>
+        <label>Name</label>
         <br />
-        <input type="first-name" name="first-name" placeholder="First Name"/>
-        <input type="last-name" name="last-name" placeholder="Last Name"/>
+        <input type="text" name="first-name" placeholder="First Name" className="input-name"/>
+        <input type="text" name="last-name" placeholder="Last Name" className="input-name last-name"/>
         <br />
-        <label>Message:</label>
+        <label>Are you attending?</label>
+        <br />
+        <input type="text" name="attending"/>
+        <br />
+        <label>Who is coming with you?</label>
+        <br />
+        <input type="text" name="attending"/>
+        <br />
+        <label>Message</label>
         <br />
         <textarea type="text" name="message" rows="5" cols="3"/>
         <br />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>RSVP</button>}
+        {status === "SUCCESS" ? <p>Thanks!</p> : <div className="rsvp-button"><button>RSVP</button></div>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
     </div>

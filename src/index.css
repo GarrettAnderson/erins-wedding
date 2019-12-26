@@ -151,6 +151,26 @@ color: rgba(28,28,28,.7)
   border: 1px solid #ccc;
   background: #fafafa;
   width: 100%;
+  padding: 12px;
+}
+
+.input-name {
+  width: 45% !important;
+}
+
+.last-name {
+  margin-left: 3.2rem;
+}
+
+.rsvp-button {
+  text-align: center;
+}
+
+.rsvp-button button {
+  color: #fff;
+  background-color: #272727;
+  border-color: #272727;
+  padding: 0.5rem 2rem;
 }
 
 footer {
