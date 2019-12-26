@@ -55,7 +55,7 @@ export class Rsvp extends Component {
                 <a href="#">REGISTRY</a>
               </li>
               <li className="page-collection">
-                <a href="#">RSVP</a>
+                <Link to="/rsvp">RSVP</Link>
               </li>              
               <li className="nav-divider"></li>
             </ul>
