@@ -83,24 +83,24 @@ export class Wedding extends Component {
       </section>
       <section className="wedding-details">
         <h1>Ceremony</h1>
-        <h3>1:00pm - 2:00pm</h3>
+        <h3>4:30pm - 5:00pm</h3>
         <p>
-          New Faith Church
+          William Paca House and Garden
           <br />
-          123 Some Street
+          186 Prince George St
           <br />
-          Annapolis, MD
+          Annapolis, MD 21401
         </p>
       </section>
       <section className="reception-details">
         <h1>Reception</h1>
-        <h3>1:00pm - 2:00pm</h3>
+        <h3>5:00pm - 9:00pm</h3>
         <p>
-          New Faith Church
+        William Paca House and Garden
           <br />
-          123 Some Street
+          186 Prince George St
           <br />
-          Annapolis, MD
+          Annapolis, MD 21401
         </p>
       </section>
       <footer><p>Built by Garrett L.G. Anderson</p></footer>
