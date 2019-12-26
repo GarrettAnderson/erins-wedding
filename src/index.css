@@ -202,7 +202,13 @@ footer {
 
   .main-nav li a:active {
     /* color: #1c1c1c; */
-    border-bottom-color: #eee;
+    border-bottom: 2px solid #eee;
+  }
+
+  .nav-divider {
+    border-bottom: 2px solid #eee;
+    width: 3rem;
+    margin-bottom: 0.9rem;
   }
 }
 
@@ -226,7 +232,12 @@ footer {
 
   .main-nav li a:active {
     /* color: #1c1c1c; */
-    border-bottom-color: #eee;
+    border-bottom: 2px solid #eee;
   }
-
+  
+  .nav-divider {
+    border-bottom: 2px solid #eee;
+    width: 3rem;
+    margin-bottom: 0.9rem;
+  }
 }

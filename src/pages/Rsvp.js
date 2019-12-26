@@ -38,6 +38,7 @@ export class Rsvp extends Component {
         <div className="navWrapper">
           <nav className="main-nav mobileNav">
             <ul>
+              <li className="nav-divider"></li>
               <li className="page-collection">
                 <Link to="/">HOME</Link>
               </li>
@@ -55,7 +56,8 @@ export class Rsvp extends Component {
               </li>
               <li className="page-collection">
                 <a href="#">RSVP</a>
-              </li>
+              </li>              
+              <li className="nav-divider"></li>
             </ul>
           </nav>
         </div>

@@ -82,6 +82,7 @@ export class Photos extends Component {
         <div id="topNav">
           <nav className="main-nav">
             <ul>
+              <li className="nav-divider"></li>
               <li className="page-collection">
                 <Link to="/">HOME</Link>
               </li>
@@ -100,6 +101,7 @@ export class Photos extends Component {
               <li className="page-collection">
                 <Link to="rsvp">RSVP</Link>
               </li>
+              <li className="nav-divider"></li>
             </ul>
           </nav>
         </div>

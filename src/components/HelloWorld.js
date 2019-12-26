@@ -15,6 +15,7 @@ class HelloWorld extends Component {
           <div className="navWrapper">
             <nav className="main-nav mobileNav">
               <ul>
+                <li className="nav-divider"></li>
                 <li className="page-collection">
                   <Link to="/">HOME</Link>
                 </li>
@@ -33,6 +34,7 @@ class HelloWorld extends Component {
                 <li className="page-collection">
                   <Link to="rsvp">RSVP</Link>
                 </li>
+                <li className="nav-divider"></li>
               </ul>
             </nav>
           </div>
