@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import saveTheDateImg from '../images/120A9694.jpg'
 
@@ -94,7 +95,7 @@ export class Rsvp extends Component {
                 <a href="#">REGISTRY</a>
               </li>
               <li className="page-collection">
-                <Link to="/rsvp">RSVP</Link>
+                <NavLink activeClassName='is-active' to="/rsvp">RSVP</NavLink>
               </li>
               <li className="nav-divider"></li>
             </ul>

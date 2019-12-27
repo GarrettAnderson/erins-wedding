@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Image01 from '../images/120A9557.jpg'
 import Image02 from '../images/120A9582.jpg'
@@ -93,7 +94,7 @@ export class Photos extends Component {
                 <a href="#">TRAVEL</a>
               </li>
               <li className="page-collection">
-                <Link to="/photos">PHOTOS</Link>
+                <NavLink activeClassName='is-active' to="/photos">PHOTOS</NavLink>
               </li>
               <li className="page-collection">
                 <a href="#">REGISTRY</a>
