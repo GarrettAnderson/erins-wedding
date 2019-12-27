@@ -70,7 +70,7 @@ export class Wedding extends Component {
                 <a href="#">REGISTRY</a>
               </li>
               <li className="page-collection">
-              <Link to="rsvp">RSVP</Link>
+              <Link to="/rsvp">RSVP</Link>
               </li>
               <li className="nav-divider"></li>
             </ul>

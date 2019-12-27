@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import saveTheDateImg from '../images/120A9694.jpg'
 
@@ -56,7 +57,7 @@ class HelloWorld extends Component {
               <ul>
                 <li className="nav-divider"></li>
                 <li className="page-collection">
-                  <Link to="/">HOME</Link>
+                  <NavLink exact={true} activeClassName='is-active' to="/">HOME</NavLink>
                 </li>
                 <li className="page-collection">
                   <Link to="/wedding">WEDDING</Link>
@@ -71,7 +72,7 @@ class HelloWorld extends Component {
                   <a href="#">REGISTRY</a>
                 </li>
                 <li className="page-collection">
-                  <Link to="rsvp">RSVP</Link>
+                  <Link to="/rsvp">RSVP</Link>
                 </li>
                 <li className="nav-divider"></li>
               </ul>

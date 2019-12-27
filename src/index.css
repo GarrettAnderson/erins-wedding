@@ -200,8 +200,12 @@ footer {
     justify-content: space-evenly;
   }
 
-  .main-nav li a:active {
+  .main-nav li a.is-active {
     /* color: #1c1c1c; */
+    border-bottom: 2px solid #eee;
+  }
+
+  .main-nav li a:hover {
     border-bottom: 2px solid #eee;
   }
 
@@ -230,11 +234,15 @@ footer {
     justify-content: space-evenly;
   }
 
-  .main-nav li a:active {
+  .main-nav li a.is-active{
     /* color: #1c1c1c; */
     border-bottom: 2px solid #eee;
   }
-  
+
+  .main-nav li a:hover {
+    border-bottom: 2px solid #eee;
+  }
+
   .nav-divider {
     border-bottom: 2px solid #eee;
     width: 3rem;
