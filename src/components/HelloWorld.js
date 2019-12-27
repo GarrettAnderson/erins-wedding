@@ -60,7 +60,7 @@ class HelloWorld extends Component {
                   <NavLink exact={true} activeClassName='is-active' to="/">HOME</NavLink>
                 </li>
                 <li className="page-collection">
-                  <Link to="/wedding">WEDDING</Link>
+                  <NavLink activeClassName='is-active' to="/wedding">WEDDING</NavLink>
                 </li>
                 <li className="page-collection">
                   <a href="#">TRAVEL</a>

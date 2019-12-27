@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import saveTheDateImg2 from '../images/120A9815.jpg'
 
@@ -55,10 +56,10 @@ export class Wedding extends Component {
             <ul>
             <li className="nav-divider"></li>
               <li className="page-collection">
-                <Link to="/">HOME</Link>
+                <NavLink exact={true} activeClassName='is-active' to="/">HOME</NavLink>
               </li>
               <li className="page-collection">
-                <Link to="/wedding">WEDDING</Link>
+                <NavLink activeClassName='is-active' to="/wedding">WEDDING</NavLink>
               </li>
               <li className="page-collection">
                 <a href="#">TRAVEL</a>
