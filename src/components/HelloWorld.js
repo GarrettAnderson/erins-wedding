@@ -1,84 +1,17 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import MobileNav from '../components/MobileNav'
+import TabletDesktopNav from '../components/TabletDesktopNav'
 import saveTheDateImg from '../images/120A9694.jpg'
 
 
 class HelloWorld extends Component {
-  state = {
-    navShown: true
-  }
-
   render() {
     return (
       <div id="canvas">
-        <div id="mobileNav" className={`mobileNavBar ${this.state.navShown ? 'is-shown' : ''}`}>
-          <div className="navWrapper">
-            <nav className="main-nav mobileNav">
-              <ul>
-                <li className="page-collection">
-                  <Link to="/">HOME</Link>
-                </li>
-                <li className="page-collection">
-                  <Link to="/wedding">WEDDING</Link>
-                </li>
-                <li className="page-collection">
-                  <a href="#">TRAVEL</a>
-                </li>
-                <li className="page-collection">
-                  <Link to="/photos">PHOTOS</Link>
-                </li>
-                <li className="page-collection">
-                  <a href="#">REGISTRY</a>
-                </li>
-                <li className="page-collection">
-                  <Link to="rsvp">RSVP</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-        <div className="mobileNavButton" onClick={() => this.setState({ navShown: !this.state.navShown })}>
-          <p>MENU</p>
-        </div>
-        <header className="header">
-          <div id="upper-logo">
-            <h1 className="header-text">
-              <a href="#">Erin &amp; Jesse</a>
-              </h1>
-          </div>
-          <div id="lower-logo">
-            <h1 className="header-text">
-              <a href="#">Erin &amp; Jesse</a>
-            </h1>
-          </div>
-          <div id="topNav">
-            <nav className="main-nav">
-              <ul>
-                <li className="nav-divider"></li>
-                <li className="page-collection">
-                  <NavLink exact={true} activeClassName='is-active' to="/">HOME</NavLink>
-                </li>
-                <li className="page-collection">
-                  <NavLink activeClassName='is-active' to="/wedding">WEDDING</NavLink>
-                </li>
-                <li className="page-collection">
-                  <a href="#">TRAVEL</a>
-                </li>
-                <li className="page-collection">
-                  <Link to="/photos">PHOTOS</Link>
-                </li>
-                <li className="page-collection">
-                  <a href="#">REGISTRY</a>
-                </li>
-                <li className="page-collection">
-                  <Link to="/rsvp">RSVP</Link>
-                </li>
-                <li className="nav-divider"></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+        <MobileNav />
+        <TabletDesktopNav />
         <div className="page-divider top-divider"></div>
         <section className="main-content">
           <section className="image-container">
