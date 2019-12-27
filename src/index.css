@@ -3,7 +3,7 @@ body {
 }
 
 hr {
-  border-top: 2px solid #eee;
+  border-top: 3px solid #eee;
 }
 
 img {
@@ -73,9 +73,9 @@ text-align: center;
 }
 
 .wedding-couple em {
-font-family: 'Cormorant Garamond', serif;
-font-style: italic;
-font-weight: 300;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .wedding-date h3 {
@@ -90,17 +90,17 @@ font-weight: 300;
 }
 
 .mobileNavBar {
-border-bottom: 2px solid #eee;
-padding: 1rem 1rem 0rem;
-margin: 0rem 1rem;
+  border-bottom: 2px solid #eee;
+  padding: 1rem 1rem 0rem;
+  margin: 0rem 1rem;
 }
 
 .mobileNavButton {
-border-bottom: 2px solid #eee;
-margin: 0rem 1rem;
-text-align: center;
-font-size: 16px;
-color: rgba(28,28,28,.7)
+  border-bottom: 2px solid #eee;
+  margin: 0rem 1rem;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(28,28,28,.7)
 }
 
 .mobileNavButton p {
@@ -177,7 +177,7 @@ color: rgba(28,28,28,.7)
 }
 
 footer {
-  border-top: 2px solid #eee;
+  border-top: 3px solid #eee;
   padding: 1rem;
   margin: 1rem;
   display: flex;
