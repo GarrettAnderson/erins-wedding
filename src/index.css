@@ -205,11 +205,6 @@ footer {
     border-bottom: 2px solid #eee;
   }
 
-  .main-nav li a.focus {
-    /* color: #1c1c1c; */
-    border-bottom: 2px solid #eee;
-  }
-
   .main-nav li a:hover {
     border-bottom: 2px solid #eee;
   }
@@ -240,11 +235,6 @@ footer {
   }
 
   .main-nav li a.is-active{
-    /* color: #1c1c1c; */
-    border-bottom: 2px solid #eee;
-  }
-
-  .main-nav li a.focus {
     /* color: #1c1c1c; */
     border-bottom: 2px solid #eee;
   }

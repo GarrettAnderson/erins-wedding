@@ -117,8 +117,10 @@ export class Rsvp extends Component {
         <br />
         <label>Name</label>
         <br />
+        <div className="name-input">
         <input type="text" name="first-name" placeholder="First Name" className="input-name"/>
         <input type="text" name="last-name" placeholder="Last Name" className="input-name last-name"/>
+        </div>
         <br />
         <label>Are you attending?</label>
         <br />
