@@ -8,12 +8,12 @@ export class TabletDesktopNav extends Component {
       <header className="header">
       <div id="upper-logo">
         <h1 className="header-text">
-          <a href="#">Erin &amp; Jesse</a>
+          <Link to="/">Erin &amp; Jesse</Link>
           </h1>
       </div>
       <div id="lower-logo">
         <h1 className="header-text">
-          <a href="#">Erin &amp; Jesse</a>
+          <Link to="/">Erin &amp; Jesse</Link>
         </h1>
       </div>
       <div id="topNav">
