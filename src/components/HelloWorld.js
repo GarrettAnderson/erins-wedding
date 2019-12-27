@@ -20,7 +20,7 @@ class HelloWorld extends Component {
             <section className="tag-line"><h3>Come Celebrate Our Wedding</h3></section>
             <section><hr></hr></section>
             <section className="wedding-couple">
-              <h1>Jesse Berhardt</h1>
+              <h1>Jesse Bernhardt</h1>
               <h2>-&nbsp;<em>and</em>&nbsp;-</h2>
               <h1>Erin Anderson</h1>
             </section>
