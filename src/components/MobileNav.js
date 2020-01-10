@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 export class MobileNav extends Component {
   state = {
     navShown: true
   }
-  
+
   render() {
     return (
       <div>
@@ -14,19 +14,19 @@ export class MobileNav extends Component {
             <nav className="main-nav mobileNav">
               <ul>
                 <li className="page-collection">
-                 <Link to="/">HOME</Link>
+                  <Link to="/">HOME</Link>
                 </li>
                 <li className="page-collection">
-                 <Link to="/wedding">WEDDING</Link>
+                  <Link to="/wedding">WEDDING</Link>
                 </li>
                 <li className="page-collection">
-                 <a href="#">TRAVEL</a>
+                  <a href="/travel">TRAVEL</a>
                 </li>
                 <li className="page-collection">
-                 <Link to="/photos">PHOTOS</Link>
+                  <Link to="/photos">PHOTOS</Link>
                 </li>
                 <li className="page-collection">
-                  <a href="#">REGISTRY</a>
+                  <a href="/honeyfund">HONEYFUND</a>
                 </li>
                 <li className="page-collection">
                   <Link to="/rsvp">RSVP</Link>
@@ -36,11 +36,11 @@ export class MobileNav extends Component {
           </div>
         </div>
         <div className="mobileNavButton" onClick={() => this.setState({ navShown: !this.state.navShown })}>
-         <p>MENU</p>
+          <p>MENU</p>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default MobileNav;
+export default MobileNav
