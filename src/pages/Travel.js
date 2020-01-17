@@ -34,7 +34,7 @@ export class Travel extends Component {
             </p>
           </section>
           <section className="reception-details">
-            <h1>Room Block #1</h1>
+            <h1>Room Block #2</h1>
             <h3>
               Click{' '}
               <a
